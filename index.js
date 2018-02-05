@@ -29,3 +29,7 @@ function appendKitten(name){
 function prependKitten(name){
   return [name, ...kittens]
 }
+
+function removeLastKitten(){
+  return kittens.slic(0, kittens.length - 1);
+}
